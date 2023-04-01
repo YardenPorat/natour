@@ -63,7 +63,7 @@ Responsive Images - Netflix method
   height: 0;
   position: relative;
   overflow: hidden;
-  padding-bottom: #{$ratio-16-9 / $cols};
+  padding-bottom: #{calc($ratio-16-9 / $cols)};
 }
 
 .img {
